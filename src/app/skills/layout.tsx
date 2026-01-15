@@ -1,8 +1,14 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Skills | Alex Reinoso Perez",
-  description: "Technical skills in Python, PyTorch, TensorFlow, MLOps, Docker, Kubernetes, and more.",
+  title: "Skills",
+  description:
+    "Technical expertise in Python, PyTorch, TensorFlow, MLOps tools (MLflow, DVC), Docker, Kubernetes, FastAPI, and computer vision frameworks.",
+  openGraph: {
+    title: "Skills | Alejandro Reinoso Perez",
+    description:
+      "Technical skills across the ML/AI stack: Python, PyTorch, MLOps, Docker, Kubernetes.",
+  },
 };
 
 export default function SkillsLayout({
